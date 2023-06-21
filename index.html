@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>BUHONERO</h1>
+            <H2>¡Tengo buena mercancia en oferta, extrajero!</H2></div>
+        <div class="container"><img src="https://w7.pngwing.com/pngs/95/838/png-transparent-buhonero-resident-evil-thumbnail.png" alt=""></div>
+        <div>
+            <ul>
+            <li>Vender</li>
+            <li class="comprar">Comprar
+                <ul>
+                <li onclick="comprar(pistola)" style="background: blue;">Pistola</li>
+                <li onclick="comprar(escopeta)" style="background: yellow;">Escopeta</li>
+                <li onclick="comprar(rifle)" style="background: brown;">Rifle</li>
+            </ul>
+            </li>
+            <li>Trucar</li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div>        
+            <h2>Maletín</h2>
+            <div id="maletin">
+                
+            </div>
+            <h2>pesetas:  <span style="margin: 5px;" id="pesetas"> </span></h2>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
