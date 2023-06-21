@@ -46,3 +46,10 @@ function actualizarHTML() {
     }
     elementoPesetas.innerText = pesetas
 }
+
+function alertaTrucar(){
+    alert("Esta función se agregara en el proximo parche")
+}
+function alertaVender(){
+    alert("Esta función se pospuso por una denuncia de explotación laboral, porfavor toque el item en el maletin para eliminarlo")
+}
